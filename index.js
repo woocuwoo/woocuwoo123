@@ -1,7 +1,7 @@
 const express = require("express");
 const server = express();
 
-server.get("/시간표", (req, res) => {
+server.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
